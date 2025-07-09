@@ -65,7 +65,7 @@ The color-coded results make it easy to identify dominant strategies or problema
 2. Open the Jupyter notebook:
    ```bash
     jupyter notebook "Simulating Games.ipynb"
-
+---
 
 ## Dependencies
 This project uses the following Python libraries:
@@ -81,13 +81,15 @@ You can install them via pip:
     pip install numpy pandas matplotlib
    ```
 
+---
+
 ## Notes
 The notebook is designed to simulate simplified TFTCG mechanics and does not model the full official ruleset.
 
 Execution time grows significantly with more simulations (num_games), so keep that in mind when scaling.
 
 Ensure your environment includes the helper module old_CL_package.py or rewrite the logic using included examples.
-
+---
 ## License
 MIT License.
 This is an educational project and not affiliated with Hasbro or Wizards of the Coast.
