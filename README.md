@@ -61,3 +61,14 @@ The color-coded results make it easy to identify dominant strategies or problema
    ```bash
    git clone https://github.com/EnricoBorriello/TFTCG-Simulated-Games.git
    cd TFTCG-Simulated-Games
+
+2. Open the Jupyter notebook:
+   ```bash
+    jupyter notebook "Simulating Games.ipynb"
+
+
+
+
+
+
+   
