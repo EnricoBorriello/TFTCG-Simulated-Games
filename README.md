@@ -1,6 +1,6 @@
 # TFTCG Simulated Games
 
-This repository contains a simulation framework for analyzing strategies in the **Transformers Trading Card Game (TFTCG)**. The goal is to explore how different deck compositions and team structures affect game outcomes using probabilistic simulations.
+This repository contains an agent-based model for analyzing strategies in the Transformers Trading Card Game (TFTCG). It simulates how individual agents—representing characters with specific stats and behaviors—interact under different deck compositions and team structures to assess their impact on game outcomes.
 
 ---
 
@@ -89,7 +89,9 @@ The notebook is designed to simulate simplified TFTCG mechanics and does not mod
 Execution time grows significantly with more simulations (num_games), so keep that in mind when scaling.
 
 Ensure your environment includes the helper module old_CL_package.py or rewrite the logic using included examples.
+
 ---
+
 ## License
 MIT License.
 This is an educational project and not affiliated with Hasbro or Wizards of the Coast.
