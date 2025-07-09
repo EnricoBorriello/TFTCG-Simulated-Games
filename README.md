@@ -4,7 +4,7 @@ This repository contains a simulation framework for analyzing strategies in the 
 
 ---
 
-## 🔍 Overview
+## Overview
 
 Using simplified combat rules inspired by the TFTCG, this notebook runs thousands of simulated battles between teams of varying size ("1-tall" to "5-wide") and deck archetypes ("mono-blue" to "mono-orange"). Each match-up is repeated multiple times to estimate:
 
@@ -16,7 +16,7 @@ Results can be visualized via heatmaps to easily compare strategy effectiveness.
 
 ---
 
-## 🧠 Background
+## Background
 
 The simulation abstracts key elements of the TFTCG:
 
@@ -30,7 +30,7 @@ The simulation abstracts key elements of the TFTCG:
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 - `Simulating Games.ipynb`: Main notebook containing:
   - Simulation logic
@@ -40,11 +40,11 @@ The simulation abstracts key elements of the TFTCG:
 - `old_CL_package.py`: External utility module (required, not included in repo)
   - Functions for deck generation and flipping logic
 
-> ⚠️ If this package is not available locally, you’ll need to implement or mock `generate_deck()` and `generate_flipped_icons()` functions to run the notebook.
+> If this package is not available locally, you’ll need to implement or mock `generate_deck()` and `generate_flipped_icons()` functions to run the notebook.
 
 ---
 
-## 📊 Example Visualizations
+## Example Visualizations
 
 Two primary heatmaps are generated:
 
@@ -55,7 +55,7 @@ The color-coded results make it easy to identify dominant strategies or problema
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository:
    ```bash
@@ -67,8 +67,27 @@ The color-coded results make it easy to identify dominant strategies or problema
     jupyter notebook "Simulating Games.ipynb"
 
 
+## Dependencies
+This project uses the following Python libraries:
 
+numpy
 
+pandas
 
+matplotlib
 
-   
+You can install them via pip:
+   ```bash
+    pip install numpy pandas matplotlib
+   ```
+
+## Notes
+The notebook is designed to simulate simplified TFTCG mechanics and does not model the full official ruleset.
+
+Execution time grows significantly with more simulations (num_games), so keep that in mind when scaling.
+
+Ensure your environment includes the helper module old_CL_package.py or rewrite the logic using included examples.
+
+## License
+MIT License.
+This is an educational project and not affiliated with Hasbro or Wizards of the Coast.
